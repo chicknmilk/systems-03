@@ -14,7 +14,7 @@ int problem_1() {
   int n;
   int ret = 0;
 
-  for (n = 3; n <= 1000; n++) {
+  for (n = 3; n < 1000; n++) {
     if (n % 5 == 0 || n % 3 == 0) {
       ret += n;
     }
